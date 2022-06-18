@@ -32,7 +32,7 @@ public class StartCss {
         WebElement emailTextBox=wd.findElement(By.cssSelector("[placeholder='Email']"));
         emailTextBox.click();
         emailTextBox.clear();
-        emailTextBox.sendKeys("shevchenk@mail.ru");
+        emailTextBox.sendKeys("shevchenk03@mail.ru");
 
         WebElement passwordTextBox=wd.findElement(By.cssSelector("[placeholder='Password']"));
         passwordTextBox.click();
@@ -54,7 +54,7 @@ public class StartCss {
         WebElement emailTextBox=wd.findElement(By.cssSelector("[placeholder='Email']"));
         emailTextBox.click();
         emailTextBox.clear();
-        emailTextBox.sendKeys("shevchenk02@mail.ru");
+        emailTextBox.sendKeys("shevchenko2@mail.ru");
 
         WebElement passwordTextBox=wd.findElement(By.cssSelector("[placeholder='Password']"));
         passwordTextBox.click();
