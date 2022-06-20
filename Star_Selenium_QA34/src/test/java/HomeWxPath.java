@@ -12,13 +12,13 @@ public class HomeWxPath {
         @Test
         public void fromCssToxPath(){
             wd.findElement(By.cssSelector("a[href]"));
-            wd.findElement(By.xpath("//*a[@href]"));
+            wd.findElement(By.xpath("//a[@href]"));
             wd.findElement(By.cssSelector("[href ^='/ho']"));
             wd.findElement(By.xpath("//*[start-with(@href,'/ho')]"));
             wd.findElement(By.cssSelector("div.focus"));
             wd.findElement(By.xpath("//div[contains(@class,'focus')]"));
             wd.findElement(By.cssSelector("input[type='text']"));
-            wd.findElement(By.xpath("//input[contains(@type='text')]"));
+            wd.findElement(By.xpath("//input[contains(@type,'text')]"));
             wd.findElement(By.cssSelector("div #host"));
             wd.findElement(By.xpath("//div//[@id='host']"));
             wd.findElement(By.cssSelector("table#contry tr:nth-child(3)) td:last-child"));
